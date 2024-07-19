@@ -1,0 +1,187 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and set the font for the entire page */
+body {
+    background-color: rgb(10, 103, 91);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('./img/payment.jpg');
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*background:transparent;
+    backdrop-filter: blur(2px); */
+}
+
+.payment-form, .payment-details {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style form elements */
+.form-group {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the payment details entries */
+.payment-entry {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Add some padding to the form and center it */
+.payment-form {
+    text-align: center;
+}
+
+/* Style the form container */
+.payment-details {
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Common button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007BFF; /* Change this to your desired button color */
+  color: #fff; /* Change this to your desired text color */
+  border: 1px solid #007BFF; /* Change this to your desired button border color */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Style the "Delete" button */
+.delete-payment {
+  background-color: #FF5733; /* Change this to your desired color */
+  border-color: #FF5733; /* Change this to your desired border color */
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007BFF; /* Change this to your desired button color */
+  color: #fff; /* Change this to your desired text color */
+  border: 1px solid #007BFF; /* Change this to your desired button border color */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Style the "Edit" button */
+.update-review {
+  background-color: #33FF57; /* Change this to your desired color */
+  border-color: #33FF57; /* Change this to your desired border color */
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007BFF; /* Change this to your desired button color */
+  color: #fff; /* Change this to your desired text color */
+  border: 1px solid #007BFF; /* Change this to your desired button border color */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Style the "Pay Now" button */
+.pay-now {
+  background-color: #FFD700; /* Change this to your desired color */
+  border-color: #FFD700; /* Change this to your desired border color */
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007BFF; /* Change this to your desired button color */
+  color: #fff; /* Change this to your desired text color */
+  border: 1px solid #007BFF; /* Change this to your desired button border color */
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for all buttons */
+.button:hover {
+  background-color: #0056b3; /* Change this to your desired hover color */
+  border-color: #0056b3; /* Change this to your desired hover border color */
+}
+
+/* Optionally, make the buttons look more like traditional buttons */
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #0056b3; /* Change this to your desired focus shadow color */
+}
+
+/* Optionally, remove underlines from links */
+a {
+  text-decoration: none;
+}
+
+/* Optionally, adjust spacing between buttons */
+.button + .button {
+  margin-left: 10px;
+}
